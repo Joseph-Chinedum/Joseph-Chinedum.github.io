@@ -1,0 +1,47 @@
+body {
+    background-color: #8F8681
+}
+.main-div {
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    margin: 1.5em 3em 1.5em;
+    background-color: #E1DCD9;
+    /* color: antiquewhite; */
+    border: 2px;
+    border-radius: 20px;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+nav ul {
+    margin: 1.7rem;
+    font-size: 25px;
+    color: white;}
+    a {
+        font-size: 20px;
+        color: white;
+        font-weight: 200px;
+        margin: 1.5re;
+     }
+     audio {
+        width: 80%;
+        max-width: 400px;
+     }
+     img {
+        width: 60%;        /* Ensures the image takes up 100% of its container */
+        height: 60%;       /* Keeps the image's aspect ratio */
+        max-width: 100%;    /* Prevents images from stretching beyond their container */
+        display: block;     /* Removes any unnecessary extra space around the image */
+      }
+      picture {
+        display: block; /* Ensure the picture element is treated as a block-level element */
+      }
+      video {
+        width: 60%;
+        height: 100%;
+        max-width: 50%;
+        display: block;
+        align-items: center;
+      }
+
